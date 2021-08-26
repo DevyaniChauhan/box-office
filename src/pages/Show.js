@@ -6,7 +6,7 @@ import Details from '../components/show/Details';
 import Seasons from '../components/show/Seasons';
 import Cast from '../components/show/Cast';
 import { InfoBlock, ShowPageWrapper } from './Show.styled';
-import useShow from '../misc/custom-hooks';
+import { useShow } from '../misc/custom-hooks';
 
 const Show = () => {
   const { id } = useParams();
